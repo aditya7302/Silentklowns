@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @font-face{
-    src : url(../font/BraveEightyoneRegular-ZVGvm.ttf);
+    src : url('../font/BraveEightyoneRegular-ZVGvm.ttf');
     font-family : brave;
   }
 *{
@@ -113,7 +113,7 @@ button{
     font-family: 'brave', sans-serif;
     color:rgb(255, 255, 255,0);
     -webkit-text-stroke:0.1vh rgba(255, 255, 255, 0.315);
-    background-image: url("/images/image-from-rawpixel-id-4041954-original.png");
+    background-image: url('../images/image-from-rawpixel-id-4041954-original.png');
     background-position: left;
     /* background-size: 50% 50%; */
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@ button{
 .secondpage{
     margin-top: 50px;
     margin-left: 100px;
-    background-image: url("/images/image-from-rawpixel-id-4042649-original.png"); 
+    background-image: url('../images/image-from-rawpixel-id-4042649-original.png'); 
     background-position: center;   
     background-repeat: no-repeat;
 }
@@ -212,7 +212,7 @@ button{
     margin:100px auto;
     }
     .combined{
-        background-image: url(/images/girl.a3f30804.svg);
+        background-image: url('../images/photo_1-removebg-preview.png');
         background-repeat: no-repeat;
         background-position: right;
     }
@@ -579,7 +579,7 @@ button{
         left: 0;
         width: 100%;
         height: 100px;
-        background: url("/images/wave.png");
+        background: url('../images/wave.png');
         background-size: 1000px 100px;
       }
       footer .wave#wave1{
