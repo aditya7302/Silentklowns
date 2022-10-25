@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @font-face{
-    src : url(/font/BraveEightyoneRegular-ZVGvm.ttf);
+    src : url(../font/BraveEightyoneRegular-ZVGvm.ttf);
     font-family : brave;
   }
 *{
