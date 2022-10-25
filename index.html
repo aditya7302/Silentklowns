@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta />
+    <title>Techfest</title>
+    <link rel="stylesheet" href="css/home_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="combined">
+      <section class="frontpage">
+        <nav class="navbars">
+          <a href="index.html"
+            ><img class="logo" src="images/final_logo.png" alt="logo"
+          /></a>
+          <div class="nav-links">
+            <ul>
+              <li><a href="about.html">About</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+              <li><a href="sponsors.html">Sponsors</a></li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+              <li>
+                <a class="cta" href="register.html"><button>Register</button></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="design">
+          <article class="art1">
+            <h1 data-text="TECHFEST">
+              TECHFEST <br />
+              2023
+            </h1>
+            <ul class="list">
+              <li id="item-1">
+                <strong>16-17 March 2023</strong>
+              </li>
+              <li id="item-2">
+                <strong>18 Events</strong>
+              </li>
+              <li id="item-1">
+                <strong>ABV-IIITM Gwalior</strong>
+              </li>
+            </ul>
+          </article>
+          <article class="art2"></article>
+        </div>
+      </section>
+      <section class="secondpage">
+        <div class="eventtime">
+          <h1><strong>Register Soon</strong></h1>
+          <h2>Event Will Be <span class="spanlive">Live</span> In</h2>
+        </div>
+        <br />
+        <div class="time">
+          <div>
+            <p id="days">00</p>
+            <p>Days</p>
+          </div>
+          <div>
+            <p id="hours">00</p>
+            <p>Hours</p>
+          </div>
+          <div>
+            <p id="minutes">00</p>
+            <p>Minutes</p>
+          </div>
+          <div>
+            <p id="seconds">00</p>
+            <p>Seconds</p>
+          </div>
+          <!-- <button class="learn">Learn More</button> -->
+        </div>
+        <a href="about.html"><button class="learn">Learn More</button></a>
+        <script>
+          var countDownDate = new Date("feb 16, 2023 00:00:00").getTime();
+
+          var x = setInterval(function () {
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+            var hours = Math.floor(
+              (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+
+            var minutes = Math.floor(
+              (distance % (1000 * 60 * 60)) / (1000 * 60)
+            );
+
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+          }, 1000);
+        </script>
+      </section>
+    </div>
+    <hr />
+    <section class="campus">
+      <h2>History</h2>
+      <div class="row">
+        <div class="campus-col">
+          <img
+            src="images\pexels-wendy-wei-1190297.jpg"
+            alt=""
+          />
+          <div class="layer">
+            <h3>2017</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img
+            src="images\pablo-heimplatz-ZODcBkEohk8-unsplash.jpg"
+            alt=""
+          />
+          <div class="layer">
+            <h3>2019</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img
+            src="images\pexels-wendy-wei-1540406.jpg"
+            alt=""
+          />
+          <div class="layer">
+            <h3>2021</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="campus-1">
+      <h2>Welcome to the Biggest National Level Fest</h2>
+      <div class="row">
+        <div class="campus-col-1">
+          <img
+            src="images\WhatsApp Image 2022-10-24 at 22.07.35.jpg"
+            alt=""
+          />
+          <div class="layer-1">
+          </div>
+        </div>
+        <div class="campus-text-box">
+          <p>
+            Technical events establish a bridge between students and the industry. Texephyr, a national level techfest organized by the students of MIT WPU Pune provides a platform for creative minds nation wide to showcase their curricular and extracurricular talents.Texephyr is beyond just a technical fest. It is a foundation for students to experience various aspects of professional life.
+
+
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section class="campus">
+      <h2>Why you should Join Event</h2>
+      <div class="row">
+        <div class="element">
+          <div class="box-number">
+          <i class="bg-color hover-color-2 fa fa-microphone text-light"></i>
+          <div class="text" style="background-size: cover;">
+            <h3><span>World Class Workshops</span></h3>
+            <p>A workshop is develop a specific skill while an academic conference is about presenting original research.</p>
+        </div>
+        </div>
+        </div>
+        <div class="element">
+          <div class="box-number">
+            <i class="bg-color hover-color-2 fa fa-lightbulb text-light"></i>
+            <div class="text" style="background-size: cover;">
+              <h3><span>Best Experience</span></h3>
+              <p>It is a foundation for students to experience various aspects of professional life and improve their technical skills.
+              </p>
+          </div>
+        </div>
+        </div>
+        <div class="element">
+          <div class="box-number">
+            <i class="bg-color hover-color-2 fa fa-sitemap text-light"></i>
+            <div class="text" style="background-size: cover;">
+              <h3><span>Networking</span></h3>
+              <p>Through the online events peoeple are connecting more and more and giving other people tough competition.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="element">
+          <div class="box-number">
+            <i class="bg-color hover-color-2 fa fa-building text-light"></i>
+            <div class="text" style="background-size: cover;">
+              <h3><span>Modern</span></h3>
+              <p>Our motto has always been about encouraging the youth to get inspired and find their flame.</p>
+          </div>
+        </div>
+        </div>
+        <div class="element">
+          <div class="box-number">
+            <i class="bg-color hover-color-2  fa fa-users text-light"></i>
+            <div class="text" style="background-size: cover;">
+              <h3><span>New People</span></h3>
+              <p>Texephyr try to provide a platform to students to find their creativity and carve their paths for their future. </p>
+          </div>
+        </div>
+        </div>
+        <div class="element">
+          <div class="box-number">
+            <i class="bg-color hover-color-2 fa fa-graduation-cap text-light"></i>
+            <div class="text" style="background-size: cover;">
+              <h3><span>Certificates</span></h3>
+              <p>Texephyr certification can verify your skills to employers, qualifying you for more advanced positions and increasing your earning potential.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+      <br>
+      <div class="col-lg-12 d-lg-flex justify-content-center align-items-center" style="background-size: cover;">
+        <a href="events.html" class="btn-custom text-white scroll-to">view Events</a>    
+    </div>
+    </section>
+    <hr />
+    <section id="call-to-action" class="gradient-to-right text-light call-to-action" aria-label="cta" style="background-size: cover;">
+      <div class="container" style="background-size: cover;">
+          <div class="row align-items-center" style="background-size: cover;">
+              <div class="col-lg-8 col-md-7" style="background-size: cover;">
+                  <h3 class="size-2 no-margin">Get your seat before the price goes up</h3>
+              </div>
+
+              <div class="col-lg-4 col-md-5 text-right" style="background-size: cover;">
+                  <a href="register.html" class="btn-custom text-white scroll-to">Register</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  <hr>
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social_icon">
+        <li>
+          <a href="https://www.facebook.com/iiitm"
+            ><ion-icon name="logo-facebook"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/iiitm"
+            ><ion-icon name="logo-twitter"></ion-icon
+          ></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="schedule.html">Schedule</a></li>
+        <li><a href="sponsors.html">Sponsors</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+      <p>©2022 Silentklowns | All Rights Reserved</p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+  </body>
+</html>
